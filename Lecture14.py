@@ -7,12 +7,7 @@ import math
 #    Tuple with 2 items as List.  1st list is the list of depths(3rd index position of the csv), and 
 #    2nd list is the corresponding magnitude (4th index position of the csv)
 ####################
-def get_data(filename):
-    fp = open(filename, "r")
-    for line in fp:
-        fields = line.split(",")
-        print(type(fields[3]))
-    return ( [1, 2],[1, 3] )
+# TO DO
 ####################
 # End of get_data()
 
